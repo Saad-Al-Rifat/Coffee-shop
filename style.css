@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.xyz{
+    display: grid;
+    grid-template-columns: repeat(2, 10rem);
+    grid-template-rows: repeat(5, 4rem);
+    column-gap: 1.5rem;
+}
+ .box1{
+     grid-row: 1/2;
+     grid-column: 1/2;
+ }
+ .box2{
+     grid-row: -1/-2;
+     grid-column: 2/3;
+     transform: translateY(3rem);
+ }
+ .fresh1{
+     grid-row: -6/-2;
+     grid-column: 2/3;
+ }
+ .fresh2{
+     grid-row: 3/7;
+     grid-column: 1/2;
+ }

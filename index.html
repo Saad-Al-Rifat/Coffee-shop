@@ -4,35 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee shop</title>
-    <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="style.css">
-    <style type="text/tailwindcss">
-        @layer utilities {
-          .xyz{
-             display: grid;
-             grid-template-columns: repeat(2, 10rem);
-             grid-template-rows: repeat(5, 4rem);
-             column-gap: 1.5rem;
-        }
-          .box1{
-              grid-row: 1/2;
-              grid-column: 1/2;
-          }
-          .box2{
-              grid-row: -1/-2;
-              grid-column: 2/3;
-              transform: translateY(3rem);
-          }
-          .fresh1{
-              grid-row: -6/-2;
-              grid-column: 2/3;
-          }
-          .fresh2{
-              grid-row: 3/7;
-              grid-column: 1/2;
-          }
-        }
-      </style>
+    <link href="output.css" rel="stylesheet">
 </head>
 <body class="w-full h-full box-border">
     <header class="p-[2rem] sm:p-[4rem] md:p-[5rem]">
@@ -41,7 +14,7 @@
                 <h1 class="font-sans text-6xl  font-normal mb-[1rem] sm:text-[5rem]">It's good tea time at The Tea House</h1>
                 <p class="font-normal text-base my-[1rem] w-auto text-[gray]">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
                 <div class="w-[10rem] mb-[1rem]">
-                  <button class="bg-gradient-to-r from-[#fd771d] to-[#fd1d1d] px-[30px] text-white rounded-xl relative h-[3rem] w-[10rem] ">Explore more<svg class="fill-white absolute top-[50%] right-[3px] translate-y-[-50%] text-base" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><polygon points="7 7 15.586 7 5.293 17.293 6.707 18.707 17 8.414 17 17 19 17 19 5 7 5 7 7"/></svg></button>
+                  <button class="px-[20px] bg-gradient-to-r from-[#fd771d] to-[#fd1d1d] px-[30px] text-white rounded-xl relative h-[3rem] w-[10rem] ">Explore more<svg class="fill-white absolute top-[50%] right-[3px] translate-y-[-50%] text-base" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><polygon points="7 7 15.586 7 5.293 17.293 6.707 18.707 17 8.414 17 17 19 17 19 5 7 5 7 7"/></svg></button>
                 </div>
               </div>
               <div class=" relative">
@@ -117,7 +90,7 @@
                       <p class="font-semibold text-[gray] text-[1rem]">Businessman</p>
                   </div>
               </div>
-              <div class="k bg-white w-[17rem] rounded-[12px] opacity-45 mb-[4rem] translate-y-[-20rem] translate-x-[3rem] sm:w-[23rem]">
+              <div class="k bg-white w-[17rem] translate-x-[-1rem] rounded-[12px] opacity-45 mb-[4rem] translate-y-[-20rem] translate-x-[3rem] sm:w-[23rem]">
                 <img src="images/client.png" alt="Loading" class="k translate-x-[-1.4rem] translate-y-[-1.4rem] rounded-full border-[5px]">
                 <div class="k px-[1.5rem] translate-y-[-2rem]">
                     <p class="k font-normal text-[gray] text-[1.1rem] mb-[1rem]">we are providing the best and suitable home insurance services for the people who are interested to treatment</p>
@@ -125,7 +98,7 @@
                     <p class="k font-semibold text-[gray] text-[1rem]">Businessman</p>
                 </div>
             </div>
-            <div class="bg-white w-[17rem] rounded-[12px] opacity-45 translate-y-[-20rem] translate-x-[3rem] sm:w-[23rem]">
+            <div class="bg-white w-[17rem] translate-x-[-1rem] rounded-[12px] opacity-45 translate-y-[-20rem] translate-x-[3rem] sm:w-[23rem]">
               <img src="images/client.png" alt="Loading" class="translate-x-[-1.4rem] translate-y-[-1.4rem] rounded-full border-[5px]">
               <div class="px-[1.5rem] translate-y-[-2rem]">
                   <p class="font-normal text-[gray] text-[1.1rem] mb-[1rem]">we are providing the best and suitable home insurance services for the people who are interested to treatment</p>
@@ -178,8 +151,5 @@
         </div>
         </div>
     </footer>
-    <script src="package-lock.json"></script>
-    <script src="package.json"></script>
-    <script src="tailwind.config.js"></script>
 </body>
 </html>
